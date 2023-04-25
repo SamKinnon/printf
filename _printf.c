@@ -1,7 +1,9 @@
 #include "main.h"
 /**
  * _printf - function
- * @format: format
+ * @...: more arguments
+ * @buff_ind: pointer pointing to int
+ * @buffer: array char
  * Return: char
  */
 void print_buffer(char buffer[], int *buff_ind);
