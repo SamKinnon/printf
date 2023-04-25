@@ -3,7 +3,7 @@
 /************************* PRINT CHAR *************************/
 
 /**
- * print_char - Function
+ * print_char - Function that print characters
  * @types: arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -77,7 +77,7 @@ int print_string(va_list types, char buffer[],
 /************************* PRINT PERCENT SIGN *************************/
 /**
  * print_percent - Prints a percent sign
- * @types: Lista of arguments
+ * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
@@ -106,7 +106,7 @@ int print_percent(va_list types, char buffer[],
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Number of characters printed
  */
 int print_int(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
